@@ -1,0 +1,29 @@
+- O que é o teste de software? Qual a melhor definição?
+
+Teste de software é uma etapa do desenvolvimento, em que a aplicação ou módulos de uma aplicação é testada a fim de coletar possíveis problemas e bugs que podem ocasionar problemas futuros.
+
+- O que é teste de unidade, integração e sistema?
+
+Teste de unidade, é quando testamos uma unidade pequena do software para que possamos garantir nessas pequenas partes o funcionamento so software e cobrir a maior quantidade de testes possíveis. Teste de integração, é quando juntamos essas pequenas unidades e fazemos um teste mais geral, para garantir que a integração entre as unidades esteja funcionando sem erros. Teste de sistema é quando fazemos um teste com a funcionalidade completa, nessa fase verifica-se a funcionalidade, o seu comportamento com o hardware e também dos requisitos do sistema.
+
+- O que é um caso de teste? Dê exemplos.
+
+Um caso de teste é quando analisamos o comportamento de um conjunto de entradas possíveis dentro de um sistema ou parte dele. ex: em um campo de texto em que somente se deveria aceitar datas, podemos inserir letras ou caracteres especiais juntamente com números. 
+
+- Qual a diferença entre um teste manual e um teste automatizado?
+
+Teste automatizado é quando já fizemos o teste uma vez e ele foi automatizado em forma de código. Um teste manual é um teste que uma pessoa deve realizar manualmente.
+
+- Explique a diferença entre o teste caixa-branca e o teste caixa-preta.
+
+Teste caixa branca nós temos acesso ao código e teste caixa preta não temos.
+
+- O que é um teste de regressão?
+
+Um teste realizado quando lançada uma nova versão se o aplicativo não terá problema em ser executado.
+
+- O que é um critério de teste? Cite exemplos.
+
+Um critério de teste são objetivos que devem ser atingidos ao testar uma aplicação ou módulos dela. Um conjunto de entradas pode ter um comportamento diferente que outra combinação. Ex.: Em testes caixa branca, tentamos cobrir 100% de linhas de código. Já em testes caixa preta, analisamos o particionamento de classes de equivalência
+
+Alunos: Dafny Garcia / Caio Thizio / Cintia Nunes
