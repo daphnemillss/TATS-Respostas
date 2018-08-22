@@ -20,7 +20,13 @@ public class CalculadoraDeSalario {
                 else {
                     return f.getSalarioBase() - (f.getSalarioBase() * 0.1);
                 }
-            
+            case "DBA":
+                if (f.getSalarioBase() >= 2000) {
+                    return f.getSalarioBase() - (f.getSalarioBase() * 0.25);
+                } 
+                else {
+                    return f.getSalarioBase() - (f.getSalarioBase() * 0.15);
+                }
         }
         return 0;
 
