@@ -45,4 +45,14 @@ public class CalculadoraTeste {
         CalculadoraDeSalario calc = new CalculadoraDeSalario();
         assertEquals(2250f, calc.calculaSalario(f), 0.01);
     }
+    
+    @Test
+    public void teste2(){
+        Funcionario f = new Funcionario();
+        f.setCargo("DBA");
+        f.setSalarioBase(2000f);
+        
+        CalculadoraDeSalario calc = new CalculadoraDeSalario();
+        assertEquals(1500f, calc.calculaSalario(f), 0.01);
+    }
 }
