@@ -72,6 +72,6 @@ public class CalculadoraTeste {
         f.setSalarioBase(5000f);
         
         CalculadoraDeSalario calc = new CalculadoraDeSalario();
-        assertEquals(1500f, calc.calculaSalario(f), 0.01);
+        assertEquals(3500f, calc.calculaSalario(f), 0.01);
     }
 }

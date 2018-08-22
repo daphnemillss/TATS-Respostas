@@ -34,6 +34,14 @@ public class CalculadoraDeSalario {
                 else{
                     return f.getSalarioBase() - (f.getSalarioBase()* 0.15);
                 }
+                case "GERENTE":
+                if(f.getSalarioBase() >= 5000){
+                    return f.getSalarioBase() - (f.getSalarioBase()* 0.30);
+                }
+                else{
+                    return f.getSalarioBase() - (f.getSalarioBase()* 0.20);
+                }
+                
         }
         return 0;
 
